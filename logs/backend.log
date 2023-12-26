@@ -202,3 +202,7 @@
 26.12.2023, 23:48:29 - ERROR - toy._id: | LvNUA
 26.12.2023, 23:48:33 - INFO - loggedinUser toy delete: | {"_id":"Jzpp3","fullname":"miri mir","score":10000}
 26.12.2023, 23:48:33 - INFO - Toy LvNUA removed
+27.12.2023, 0:01:20 - INFO - Server listening on port http://127.0.0.1:3030/
+27.12.2023, 0:02:35 - INFO - Server listening on port http://127.0.0.1:3030/
+27.12.2023, 0:02:57 - INFO - user loggedin: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
+27.12.2023, 0:06:01 - INFO - Server listening on port http://127.0.0.1:3030/
