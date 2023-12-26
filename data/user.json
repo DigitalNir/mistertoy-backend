@@ -41,5 +41,11 @@
         "fullname": "puki pa",
         "score": 10000,
         "_id": "Lamqu"
+    },
+    {
+        "username": "user1111",
+        "password": "pass",
+        "fullname": "User Name",
+        "_id": "loNHF"
     }
 ]

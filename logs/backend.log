@@ -72,3 +72,48 @@
 26.12.2023, 19:11:53 - INFO - user loggedin: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
 26.12.2023, 19:18:18 - INFO - Server listening on port http://127.0.0.1:3030/
 26.12.2023, 19:18:37 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 20:12:13 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 20:15:53 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 20:16:51 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 20:25:35 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 20:26:36 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 20:26:49 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 20:35:18 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:17:23 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:18:27 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:20:32 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:21:03 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:21:25 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:21:31 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:21:33 - ERROR - 🚀 ~ file: toy.service.js:40 ~ query ~ toysToReturn: | []
+26.12.2023, 22:21:55 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:21:58 - ERROR - 🚀 ~ file: toy.service.js:40 ~ query ~ toysToReturn: | [{"_id":"t101","name":"Toy-1","price":177,"labels":["Puzzle","Art","Baby"],"createdAt":1703469545,"inStock":false},{"_id":"t102","name":"Toy-2","price":25,"labels":["Outdoor","Doll"],"createdAt":1703449394,"inStock":true},{"_id":"t103","name":"Toy-3","price":361,"labels":["Battery Powered","Outdoor","On wheels"],"createdAt":1703501311,"inStock":false},{"_id":"t104","name":"Toy-4","price":281,"labels":["Puzzle","Box game","Doll"],"createdAt":1703453696,"inStock":true},{"_id":"t105","name":"Toy-5","price":104,"labels":["Puzzle","Baby","Outdoor"],"createdAt":1703461140,"inStock":true},{"_id":"t106","name":"Toy-6","price":314,"labels":["Baby"],"createdAt":1703534395,"inStock":false},{"_id":"t107","name":"Toy-7","price":12,"labels":["Box game","Art","Doll"],"createdAt":1703492572,"inStock":true},{"_id":"t108","name":"Toy-8","price":433,"labels":["Box game","Battery Powered","Puzzle"],"createdAt":1703456276,"inStock":false},{"_id":"t109","name":"Toy-9","price":441,"labels":["Doll","On wheels","Puzzle"],"createdAt":1703542777,"inStock":false},{"_id":"t1010","name":"Toy-10","price":174,"labels":["Doll","Baby"],"createdAt":1703469814,"inStock":false}]
+26.12.2023, 22:23:06 - ERROR - 🚀 ~ file: toy.service.js:40 ~ query ~ toysToReturn: | [{"_id":"t102","name":"Toy-2","price":25,"labels":["Outdoor","Doll"],"createdAt":1703449394,"inStock":true}]
+26.12.2023, 22:24:36 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:26:58 - ERROR - 🚀 ~ file: toy.service.js:40 ~ query ~ toysToReturn: | [{"_id":"t101","name":"Toy-1","price":177,"labels":["Puzzle","Art","Baby"],"createdAt":1703469545,"inStock":false},{"_id":"t102","name":"Toy-2","price":25,"labels":["Outdoor","Doll"],"createdAt":1703449394,"inStock":true},{"_id":"t105","name":"Toy-5","price":104,"labels":["Puzzle","Baby","Outdoor"],"createdAt":1703461140,"inStock":true},{"_id":"t107","name":"Toy-7","price":12,"labels":["Box game","Art","Doll"],"createdAt":1703492572,"inStock":true},{"_id":"t1010","name":"Toy-10","price":174,"labels":["Doll","Baby"],"createdAt":1703469814,"inStock":false}]
+26.12.2023, 22:30:14 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:30:58 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:31:12 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:32:40 - INFO - Invalid Credentials | {"username":"user1","password":"pass1"}
+26.12.2023, 22:33:13 - INFO - user loggedin: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
+26.12.2023, 22:33:43 - INFO - user loggedin: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
+26.12.2023, 22:33:57 - INFO - user loggedin: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
+26.12.2023, 22:34:31 - INFO - user loggedin: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
+26.12.2023, 22:35:23 - INFO - user loggedin: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
+26.12.2023, 22:40:49 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:45:35 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:46:13 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:47:33 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:47:46 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:47:48 - ERROR - toy._id: | 
+26.12.2023, 22:48:12 - ERROR - toy._id: | sfRtv
+26.12.2023, 22:48:12 - ERROR - 🚀 ~ file: toy.service.js:72 ~ save ~ toyToUpdate: | {"name":"Old Moshe Toy","price":200,"labels":["Educational","Fun"],"inStock":true,"_id":"sfRtv","owner":{"fullname":"Puki Ja","score":10000,"_id":"u101","isAdmin":true}}
+26.12.2023, 22:49:08 - ERROR - toy._id: | sfRtv
+26.12.2023, 22:49:08 - ERROR - 🚀 ~ file: toy.service.js:72 ~ save ~ toyToUpdate: | {"name":"New Moshe Toy","price":250,"labels":["Educational","Fun"],"inStock":true,"_id":"sfRtv","owner":{"fullname":"Puki Ja","score":10000,"_id":"u101","isAdmin":true}}
+26.12.2023, 22:49:48 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 22:49:50 - ERROR - toy._id: | sfRtv
+26.12.2023, 22:49:50 - ERROR - 🚀 ~ file: toy.service.js:72 ~ save ~ toyToUpdate: | {"name":"New Moshe Toy","price":250,"labels":["Educational","Fun"],"inStock":true,"_id":"sfRtv","owner":{"fullname":"Puki Ja","score":10000,"_id":"u101","isAdmin":true}}
+26.12.2023, 22:50:00 - ERROR - toy._id: | sfRtv
+26.12.2023, 22:50:00 - ERROR - 🚀 ~ file: toy.service.js:72 ~ save ~ toyToUpdate: | {"name":"old Moshe Toy","price":250,"labels":["Educational","Fun"],"inStock":true,"_id":"sfRtv","owner":{"fullname":"Puki Ja","score":10000,"_id":"u101","isAdmin":true}}
+26.12.2023, 22:51:21 - INFO - loggedinUser toy delete: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
+26.12.2023, 22:51:21 - INFO - Toy sfRtv removed
