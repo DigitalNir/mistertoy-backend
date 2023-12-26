@@ -117,3 +117,88 @@
 26.12.2023, 22:50:00 - ERROR - 🚀 ~ file: toy.service.js:72 ~ save ~ toyToUpdate: | {"name":"old Moshe Toy","price":250,"labels":["Educational","Fun"],"inStock":true,"_id":"sfRtv","owner":{"fullname":"Puki Ja","score":10000,"_id":"u101","isAdmin":true}}
 26.12.2023, 22:51:21 - INFO - loggedinUser toy delete: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
 26.12.2023, 22:51:21 - INFO - Toy sfRtv removed
+26.12.2023, 23:20:28 - INFO - user loggedin: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
+26.12.2023, 23:20:48 - ERROR - toy._id: | xaAiB
+26.12.2023, 23:20:48 - ERROR - 🚀 ~ file: toy.service.js:72 ~ save ~ toyToUpdate: | {"name":"","price":555,"labels":[],"inStock":true,"_id":"xaAiB","owner":{"fullname":"Puki Ja","score":10000,"_id":"u101","isAdmin":true}}
+26.12.2023, 23:23:55 - INFO - loggedinUser toy delete: | {"_id":"Jzpp3","fullname":"miri mir","score":10000}
+26.12.2023, 23:23:55 - INFO - Toy T9qta removed
+26.12.2023, 23:24:21 - ERROR - toy._id: | LvNUA
+26.12.2023, 23:24:21 - ERROR - 🚀 ~ file: toy.service.js:72 ~ save ~ toyToUpdate: | {"name":"","price":44,"labels":[],"inStock":true,"_id":"LvNUA","owner":{"fullname":"miri mir","score":10000,"_id":"Jzpp3"}}
+26.12.2023, 23:25:06 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:27:45 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:29:15 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:29:26 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:29:31 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:29:37 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":2,"stockStatus":"true"}
+26.12.2023, 23:29:57 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:30:01 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:30:02 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:30:07 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":2}
+26.12.2023, 23:30:55 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:31:14 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:31:27 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:31:40 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:31:45 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:33:31 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:33:34 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:33:36 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:33:40 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"false"}
+26.12.2023, 23:33:43 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:33:48 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:33:51 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:36:29 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:36:34 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:36:42 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:36:44 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"false"}
+26.12.2023, 23:36:46 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:36:47 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:36:51 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":28}
+26.12.2023, 23:36:51 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":281}
+26.12.2023, 23:36:54 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":28}
+26.12.2023, 23:36:54 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":280}
+26.12.2023, 23:36:56 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:36:58 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"4","maxPrice":10000}
+26.12.2023, 23:37:00 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:37:00 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"5","maxPrice":10000}
+26.12.2023, 23:37:01 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:37:02 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":" ","maxPrice":10000}
+26.12.2023, 23:37:03 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:39:14 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:39:17 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"false"}
+26.12.2023, 23:39:20 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:39:24 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:39:26 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"false"}
+26.12.2023, 23:42:42 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:42:46 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:42:50 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:43:05 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:43:10 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:43:15 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:43:17 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:43:20 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"false"}
+26.12.2023, 23:43:23 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:43:26 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000}
+26.12.2023, 23:43:31 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:43:32 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":1,"stockStatus":"true"}
+26.12.2023, 23:43:33 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:43:34 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":2,"stockStatus":"true"}
+26.12.2023, 23:43:36 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:43:37 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":281,"stockStatus":"true"}
+26.12.2023, 23:43:39 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":10000,"stockStatus":"true"}
+26.12.2023, 23:43:40 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":104,"stockStatus":"true"}
+26.12.2023, 23:43:46 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"mi","maxPrice":104,"stockStatus":"true"}
+26.12.2023, 23:43:48 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"mir","maxPrice":104,"stockStatus":"true"}
+26.12.2023, 23:43:49 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"","maxPrice":104,"stockStatus":"true"}
+26.12.2023, 23:43:55 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"4","maxPrice":104,"stockStatus":"true"}
+26.12.2023, 23:43:57 - ERROR - 🚀 ~ file: server.js:48 ~ app.get ~ filterBy: | {"txt":"5","maxPrice":104,"stockStatus":"true"}
+26.12.2023, 23:44:02 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:44:03 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:45:31 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:45:54 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:46:06 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:46:11 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:46:17 - INFO - Server listening on port http://127.0.0.1:3030/
+26.12.2023, 23:46:50 - INFO - loggedinUser toy delete: | {"_id":"Jzpp3","fullname":"miri mir","score":10000}
+26.12.2023, 23:48:29 - ERROR - toy._id: | LvNUA
+26.12.2023, 23:48:33 - INFO - loggedinUser toy delete: | {"_id":"Jzpp3","fullname":"miri mir","score":10000}
+26.12.2023, 23:48:33 - INFO - Toy LvNUA removed

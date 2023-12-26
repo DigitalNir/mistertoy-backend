@@ -114,5 +114,46 @@
         ],
         "createdAt": 1703469814,
         "inStock": false
+    },
+    {
+        "name": "New Moshe Toy",
+        "price": 240,
+        "labels": [
+            "Educational",
+            "Fun"
+        ],
+        "inStock": true,
+        "_id": "t9BUy",
+        "owner": {
+            "fullname": "Puki Ja",
+            "score": 10000,
+            "_id": "u101",
+            "isAdmin": true
+        }
+    },
+    {
+        "name": "",
+        "price": 555,
+        "labels": [],
+        "inStock": true,
+        "_id": "xaAiB",
+        "owner": {
+            "fullname": "Puki Ja",
+            "score": 10000,
+            "_id": "u101",
+            "isAdmin": true
+        }
+    },
+    {
+        "name": "",
+        "price": 0,
+        "labels": [],
+        "inStock": true,
+        "_id": "xJUpw",
+        "owner": {
+            "fullname": "miri mir",
+            "score": 10000,
+            "_id": "Jzpp3"
+        }
     }
 ]

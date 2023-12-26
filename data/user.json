@@ -47,5 +47,12 @@
         "password": "pass",
         "fullname": "User Name",
         "_id": "loNHF"
+    },
+    {
+        "username": "miri",
+        "password": "1234",
+        "fullname": "miri mir",
+        "score": 10000,
+        "_id": "Jzpp3"
     }
 ]

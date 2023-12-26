@@ -42,8 +42,10 @@ app.get('/api/toy', (req, res) => {
     const filterBy = {
         txt: req.query.txt || '',
         maxPrice: +req.query.maxPrice || 10000,
+        stockStatus: req.query.stockStatus || undefined
     }
     toyService.query(filterBy)
+
         .then((toys) => {
             res.send(toys)
         })

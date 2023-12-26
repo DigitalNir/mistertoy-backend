@@ -24,19 +24,24 @@ const toys = utilService.readJsonFile('data/toy.json')
 function query(filterBy = {}) {
     if (!filterBy.txt) filterBy.txt = ''
     if (!filterBy.maxPrice) filterBy.maxPrice = 10000
-    if (!filterBy.inStock) filterBy.inStock = undefined
+    if (!filterBy.stockStatus) filterBy.stockStatus = undefined
+
+    // Convert stockStatus to a boolean or keep it undefined
+    let stockStatus
+    if (filterBy.stockStatus === 'true') stockStatus = true
+    else if (filterBy.stockStatus === 'false') stockStatus = false
 
     const regExp = new RegExp(filterBy.txt, 'i')
 
     const toysToReturn = toys.filter(toy => {
         const matchesName = regExp.test(toy.name)
         const matchesPrice = toy.price <= filterBy.maxPrice
-        const matchesStockStatus = filterBy.stockStatus === undefined || toy.inStock === filterBy.stockStatus
+        const matchesStockStatus = stockStatus === undefined || toy.inStock === stockStatus
 
         return matchesName && matchesPrice && matchesStockStatus
     })
 
-
+    return Promise.resolve(toysToReturn)
 
 }
 
@@ -58,7 +63,6 @@ function remove(toyId, loggedinUser) {
 }
 
 function save(toy, loggedinUser) {
-    console.log("🚀 ~ file: toy.service.js:61 ~ save ~ toy:", toy._id)
 
     if (toy._id) {
         const toyToUpdate = toys.find(currToy => currToy._id === toy._id)
@@ -71,7 +75,6 @@ function save(toy, loggedinUser) {
         toyToUpdate.labels = toy.labels
         toyToUpdate.inStock = toy.inStock
         toy = toyToUpdate
-        loggerService.error("🚀 ~ file: toy.service.js:72 ~ save ~ toyToUpdate:", toyToUpdate)
 
     } else {
         toy._id = utilService.makeId()
