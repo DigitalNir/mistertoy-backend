@@ -1,0 +1,81 @@
+[
+    {
+        "vendor": "Puki Car",
+        "speed": 220,
+        "_id": "WepLV",
+        "price": 3466,
+        "owner": {
+            "_id": "u101",
+            "fullname": "Puki Ja",
+            "score": 10000,
+            "isAdmin": true
+        }
+    },
+    {
+        "vendor": "Muki Car",
+        "speed": 123,
+        "_id": "wYrey",
+        "price": 4982,
+        "owner": {
+            "_id": "u102",
+            "score": 10000,
+            "fullname": "Muki Ba"
+        }
+    },
+    {
+        "vendor": "Kiki Car",
+        "speed": 676,
+        "_id": "em8lL",
+        "price": 8837,
+        "owner": {
+            "_id": "6iykr",
+            "score": 10000,
+            "fullname": "Kiki Ki"
+        }
+    },
+    {
+        "vendor": "Susita-908",
+        "price": 1527,
+        "speed": 115,
+        "_id": "Dezc2",
+        "owner": {
+            "fullname": "Puki Ja",
+            "score": 10000,
+            "_id": "u101",
+            "isAdmin": true
+        }
+    },
+    {
+        "vendor": "Susita-722",
+        "price": 4764,
+        "speed": 123,
+        "_id": "5Ctic",
+        "owner": {
+            "fullname": "Bobo Mcpopo",
+            "score": 10000,
+            "_id": "YtbOz"
+        }
+    },
+    {
+        "vendor": "Susita-828",
+        "price": 2359,
+        "speed": 116,
+        "_id": "1sXFk",
+        "owner": {
+            "fullname": "Bobo McPopo",
+            "score": 10000,
+            "_id": "YtbOz"
+        }
+    },
+    {
+        "vendor": "Susita-542",
+        "price": 2222,
+        "speed": 140,
+        "_id": "vTZBr",
+        "owner": {
+            "fullname": "puki pa",
+            "score": 10000,
+            "_id": "Lamqu"
+        }
+    }
+]
