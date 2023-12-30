@@ -1,7 +1,7 @@
 import fs from 'fs'
-import {utilService} from './util.service.js'
+import { utilService } from './util.service.js'
 
-export const loggerService = {
+export const logger = {
     debug(...args) {
         doLog('DEBUG', ...args)
     },
@@ -13,9 +13,8 @@ export const loggerService = {
     },
     error(...args) {
         doLog('ERROR', ...args)
-    }
+    },
 }
-
 
 const logsDir = './logs'
 if (!fs.existsSync(logsDir)) {
@@ -33,15 +32,13 @@ function isError(e) {
 }
 
 function doLog(level, ...args) {
-
-    const strs = args.map(arg =>
-        (typeof arg === 'string' || isError(arg)) ? arg : JSON.stringify(arg)
+    const strs = args.map((arg) =>
+        typeof arg === 'string' || isError(arg) ? arg : JSON.stringify(arg)
     )
     var line = strs.join(' | ')
     line = `${getTime()} - ${level} - ${line}\n`
     console.log(line)
-    fs.appendFile('./logs/backend.log', line, (err) =>{
+    fs.appendFile('./logs/backend.log', line, (err) => {
         if (err) console.log('FATAL: cannot write to log file')
     })
 }
-

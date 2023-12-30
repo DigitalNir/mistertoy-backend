@@ -210,3 +210,92 @@
 27.12.2023, 2:18:10 - INFO - user loggedin: | {"_id":"u101","fullname":"Puki Ja","score":10000,"isAdmin":true}
 27.12.2023, 3:25:17 - INFO - Server listening on port http://127.0.0.1:3030/
 28.12.2023, 2:57:55 - INFO - Server listening on port http://127.0.0.1:3030/
+30.12.2023, 4:44:25 - INFO - server.js loaded...
+30.12.2023, 4:44:25 - INFO - Server listening on port: 3030/
+30.12.2023, 4:49:24 - DEBUG - auth.service - login with username: puki
+30.12.2023, 4:49:24 - ERROR - Failed to Login Error: Invalid username or password
+30.12.2023, 4:49:33 - DEBUG - auth.service - login with username: puki
+30.12.2023, 4:49:33 - ERROR - Failed to Login Error: Invalid username or password
+30.12.2023, 4:49:35 - DEBUG - auth.service - login with username: puki
+30.12.2023, 4:49:35 - ERROR - Failed to Login Error: Invalid username or password
+30.12.2023, 4:49:36 - DEBUG - auth.service - login with username: puki
+30.12.2023, 4:49:36 - ERROR - Failed to Login Error: Invalid username or password
+30.12.2023, 4:49:37 - DEBUG - auth.service - login with username: puki
+30.12.2023, 4:49:37 - ERROR - Failed to Login Error: Invalid username or password
+30.12.2023, 4:52:31 - DEBUG - auth.service - signup with username: mykofif, fullname: Kofif Kofifus
+30.12.2023, 4:52:32 - DEBUG - auth.service - login with username: mykofif
+30.12.2023, 4:52:32 - DEBUG - auth.route - new account created: {"username":"mykofif","password":"$2b$10$8o38cn4YZ2CxO7jgyDmQW.33ETbeLW5cLFRgwKmikaxWlU6KVyx/C","fullname":"Kofif Kofifus","score":0,"_id":"658f85ef1c65c48ec5051484"}
+30.12.2023, 4:56:33 - INFO - server.js loaded...
+30.12.2023, 4:56:33 - INFO - Server listening on port: 3030/
+30.12.2023, 4:57:47 - DEBUG - auth.service - login with username: mykofif
+30.12.2023, 4:57:47 - INFO - User login:  | {"_id":"658f85ef1c65c48ec5051484","username":"mykofif","fullname":"Kofif Kofifus","score":0}
+30.12.2023, 4:58:01 - DEBUG - auth.service - login with username: mykofif
+30.12.2023, 4:58:01 - INFO - User login:  | {"_id":"658f85ef1c65c48ec5051484","username":"mykofif","fullname":"Kofif Kofifus","score":0}
+30.12.2023, 4:58:07 - DEBUG - auth.service - login with username: mykofif
+30.12.2023, 4:58:08 - INFO - User login:  | {"_id":"658f85ef1c65c48ec5051484","username":"mykofif","fullname":"Kofif Kofifus","score":0}
+30.12.2023, 5:01:02 - DEBUG - auth.service - login with username: mykofif
+30.12.2023, 5:01:02 - INFO - User login:  | {"_id":"658f85ef1c65c48ec5051484","username":"mykofif","fullname":"Kofif Kofifus","score":0}
+30.12.2023, 5:02:10 - INFO - Req was made | /
+30.12.2023, 5:02:10 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+30.12.2023, 5:03:25 - INFO - Req was made | /
+30.12.2023, 5:03:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":"50"}
+30.12.2023, 5:03:33 - DEBUG - Getting Toys | {"txt":"","maxPrice":"1000"}
+30.12.2023, 5:03:33 - INFO - Req was made | /
+30.12.2023, 5:03:42 - INFO - Req was made | /
+30.12.2023, 5:03:42 - DEBUG - Getting Toys | {"txt":"toy","maxPrice":""}
+30.12.2023, 5:03:45 - INFO - Req was made | /
+30.12.2023, 5:03:45 - DEBUG - Getting Toys | {"txt":"1","maxPrice":""}
+30.12.2023, 5:03:55 - INFO - Req was made | /
+30.12.2023, 5:03:55 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+30.12.2023, 5:04:02 - INFO - Req was made | /
+30.12.2023, 5:04:02 - DEBUG - Getting Toys | {"txt":"","maxPrice":""}
+30.12.2023, 5:04:54 - DEBUG - Getting Toys | {"txt":"","maxPrice":"","stockStatus":"true"}
+30.12.2023, 5:04:54 - INFO - Req was made | /
+30.12.2023, 5:06:34 - DEBUG - Getting Toys | {"txt":"","maxPrice":"","stockStatus":"false"}
+30.12.2023, 5:06:34 - INFO - Req was made | /
+30.12.2023, 5:08:26 - INFO - server.js loaded...
+30.12.2023, 5:08:26 - INFO - Server listening on port: 3030/
+30.12.2023, 5:08:42 - INFO - Req was made | /
+30.12.2023, 5:08:42 - DEBUG - Getting Toys | {"txt":"","maxPrice":"200"}
+30.12.2023, 5:08:58 - INFO - Req was made | /
+30.12.2023, 5:08:58 - DEBUG - Getting Toys | {"txt":"","maxPrice":"30"}
+30.12.2023, 5:09:21 - DEBUG - Getting Toys | {"txt":"","maxPrice":"30","stockStatus":"false"}
+30.12.2023, 5:09:21 - INFO - Req was made | /
+30.12.2023, 5:09:25 - INFO - Req was made | /
+30.12.2023, 5:09:25 - DEBUG - Getting Toys | {"txt":"","maxPrice":"30"}
+30.12.2023, 5:09:38 - INFO - Req was made | /
+30.12.2023, 5:09:38 - DEBUG - Getting Toys | {"txt":"2","maxPrice":"30"}
+30.12.2023, 5:11:46 - INFO - server.js loaded...
+30.12.2023, 5:11:46 - INFO - Server listening on port: 3030/
+30.12.2023, 5:11:57 - ERROR - Failed to get toy | ReferenceError: Cannot access 'toy' before initialization
+30.12.2023, 5:12:45 - INFO - server.js loaded...
+30.12.2023, 5:12:45 - INFO - Server listening on port: 3030/
+30.12.2023, 5:13:05 - INFO - server.js loaded...
+30.12.2023, 5:13:05 - INFO - Server listening on port: 3030/
+30.12.2023, 5:51:55 - INFO - server.js loaded...
+30.12.2023, 5:51:55 - INFO - Server listening on port: 3030/
+30.12.2023, 5:52:36 - INFO - server.js loaded...
+30.12.2023, 5:52:36 - INFO - Server listening on port: 3030/
+30.12.2023, 5:52:48 - INFO - server.js loaded...
+30.12.2023, 5:52:48 - INFO - Server listening on port: 3030/
+30.12.2023, 5:52:50 - DEBUG - 🚀 ~ file: toy.controller.js:49 ~ updateToy ~ updatedToy: | {"name":"old bibi Toy","price":250,"labels":["Educational","Fun"],"inStock":true}
+30.12.2023, 5:53:07 - INFO - server.js loaded...
+30.12.2023, 5:53:07 - INFO - Server listening on port: 3030/
+30.12.2023, 5:57:45 - WARN - Kofif Kofifusattempted to perform admin action
+30.12.2023, 6:00:38 - WARN - Kofif Kofifusattempted to perform admin action
+30.12.2023, 6:00:51 - INFO - server.js loaded...
+30.12.2023, 6:00:51 - INFO - Server listening on port: 3030/
+30.12.2023, 6:00:59 - DEBUG - auth.service - login with username: mykofif
+30.12.2023, 6:00:59 - INFO - User login:  | {"_id":"658f85ef1c65c48ec5051484","username":"mykofif","fullname":"Kofif Kofifus","score":0,"isAdmin":"true"}
+30.12.2023, 6:01:11 - ERROR - cannot find users | TypeError: Class constructor ObjectId cannot be invoked without 'new'
+30.12.2023, 6:01:11 - ERROR - Failed to get users | TypeError: Class constructor ObjectId cannot be invoked without 'new'
+30.12.2023, 6:02:21 - INFO - server.js loaded...
+30.12.2023, 6:02:21 - INFO - Server listening on port: 3030/
+30.12.2023, 6:02:41 - DEBUG - auth.service - login with username: mykofif
+30.12.2023, 6:02:41 - INFO - User login:  | {"_id":"658f85ef1c65c48ec5051484","username":"mykofif","fullname":"Kofif Kofifus","score":0,"isAdmin":"true"}
+30.12.2023, 6:06:46 - ERROR - Failed to update toy msg | ReferenceError: toy is not defined
+30.12.2023, 6:06:46 - ERROR - cannot add toy msg 658f96f8d5f085d2f5a06f1a | ReferenceError: toy is not defined
+30.12.2023, 6:07:55 - ERROR - cannot add toy msg 658f96f8d5f085d2f5a06f1a | ReferenceError: toy is not defined
+30.12.2023, 6:07:55 - ERROR - Failed to update toy msg | ReferenceError: toy is not defined
+30.12.2023, 6:09:27 - INFO - server.js loaded...
+30.12.2023, 6:09:27 - INFO - Server listening on port: 3030/
