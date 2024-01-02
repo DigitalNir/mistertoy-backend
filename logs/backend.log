@@ -312,3 +312,17 @@
 2.1.2024, 3:00:47 - INFO - Req was made | /
 2.1.2024, 3:01:18 - INFO - Req was made | /
 2.1.2024, 3:01:56 - INFO - Req was made | /
+2.1.2024, 3:28:09 - INFO - server.js loaded...
+2.1.2024, 3:28:09 - INFO - Server listening on port: 3030/
+2.1.2024, 3:37:04 - INFO - Server listening on port: 3030/
+2.1.2024, 3:37:04 - INFO - server.js loaded...
+2.1.2024, 3:37:16 - INFO - Req was made | /
+2.1.2024, 3:37:17 - ERROR - Cannot Connect to DB | MongoServerError: bad auth : Authentication failed.
+2.1.2024, 3:37:17 - ERROR - Failed to get Mongo collection | MongoServerError: bad auth : Authentication failed.
+2.1.2024, 3:37:17 - ERROR - cannot find reviews | MongoServerError: bad auth : Authentication failed.
+2.1.2024, 3:37:17 - ERROR - cannot get reviews | MongoServerError: bad auth : Authentication failed.
+2.1.2024, 3:39:35 - INFO - server.js loaded...
+2.1.2024, 3:39:35 - INFO - Server listening on port: 3030/
+2.1.2024, 3:39:38 - INFO - server.js loaded...
+2.1.2024, 3:39:38 - INFO - Server listening on port: 3030/
+2.1.2024, 3:39:44 - INFO - Req was made | /
