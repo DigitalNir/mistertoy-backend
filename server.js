@@ -2,8 +2,9 @@ import cookieParser from 'cookie-parser'
 import cors from 'cors'
 import express from 'express'
 import path, { dirname } from 'path'
-import { logger } from './services/logger.service.js'
 import { fileURLToPath } from 'url'
+
+import { logger } from './services/logger.service.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -37,6 +38,8 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // routes
+import { setupAsyncLocalStorage } from './middlewares/setupAls.middleware.js'
+app.all('*', setupAsyncLocalStorage)
 
 import { authRoutes } from './api/auth/auth.routes.js'
 app.use('/api/auth', authRoutes)
@@ -46,6 +49,8 @@ app.use('/api/user', userRoutes)
 
 import { toyRoutes } from './api/toy/toy.routes.js'
 app.use('/api/toy', toyRoutes)
+import { reviewRoutes } from './api/review/review.routes.js'
+app.use('/api/review', reviewRoutes)
 
 app.get('/**', (req, res) => {
     res.sendFile(path.resolve('public/index.html'))

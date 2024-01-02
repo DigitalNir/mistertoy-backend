@@ -299,3 +299,16 @@
 30.12.2023, 6:07:55 - ERROR - Failed to update toy msg | ReferenceError: toy is not defined
 30.12.2023, 6:09:27 - INFO - server.js loaded...
 30.12.2023, 6:09:27 - INFO - Server listening on port: 3030/
+2.1.2024, 2:08:04 - INFO - server.js loaded...
+2.1.2024, 2:08:04 - INFO - Server listening on port: 3030/
+2.1.2024, 2:08:16 - INFO - Req was made | /
+2.1.2024, 2:08:16 - ERROR - cannot insert review | TypeError: Class constructor ObjectId cannot be invoked without 'new'
+2.1.2024, 2:08:16 - ERROR - Failed to add review | TypeError: Class constructor ObjectId cannot be invoked without 'new'
+2.1.2024, 2:09:09 - INFO - server.js loaded...
+2.1.2024, 2:09:09 - INFO - Server listening on port: 3030/
+2.1.2024, 2:09:09 - INFO - Req was made | /
+2.1.2024, 2:10:25 - INFO - Req was made | /
+2.1.2024, 3:00:05 - INFO - Req was made | /
+2.1.2024, 3:00:47 - INFO - Req was made | /
+2.1.2024, 3:01:18 - INFO - Req was made | /
+2.1.2024, 3:01:56 - INFO - Req was made | /
